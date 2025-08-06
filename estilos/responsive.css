@@ -1,0 +1,39 @@
+/* Hacer que las imágenes no se desborden */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Ajustar texto y contenedores para diferentes tamaños */
+@media (max-width: 1024px) {
+    .menu li {
+        font-size: 28px; /* Más pequeño en pantallas medianas */
+        margin: 0px 50px;
+    }
+}
+
+@media (max-width: 768px) {
+    .menu {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu li {
+        font-size: 24px;
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .menu li {
+        font-size: 20px; /* Más pequeño para celulares */
+    }
+
+    .bienvenida h1 {
+        font-size: 22px;
+    }
+
+    .bienvenida p {
+        font-size: 16px;
+    }
+}

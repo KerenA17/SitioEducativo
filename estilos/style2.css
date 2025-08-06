@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+body{
+    background-color: black;
+    padding: 2% 2% 0 2%; 
+}
+
+.menu{
+    list-style-type: none;
+    padding-left: 11%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 6px #C0393B solid;
+    height: 91px;
+    font-family: 'Exo', arial;
+
+}
+
+.menu li {
+    margin: 0px 12px;
+    font-family: 'Exo';
+
+}
+
+.menu a{
+    text-decoration: none;
+    font-size: 31px;
+    padding: 2%;
+    border-radius: 10%;
+
+}
+
+.menu img{
+    height: 85px;
+    border-radius: 50%;
+    margin-top: -13%;
+
+}
+
+.contenido{
+    margin: 0% 8%;
+    text-align: justify;
+    padding: 1.5%;
+}
+
+.conceptosB{
+    width: 54%;
+    padding-bottom: 1%;
+    padding-right: 2%;
+}
+
+.concepVi{
+    box-shadow: 0 0 9px #C0393B;
+    padding: 1% 5%;  
+    margin-top: 4%;
+}
+
+.elementos, .estructura, .tiposR, .definicion, .reglas {
+    box-shadow: 0 0 9px #C0393B;
+    padding: 1% 5%;
+    margin: 4% auto;
+    
+}
+
+.contenido h4{
+    font-family: 'Orbitron', Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}    
+
+
+.contenido h6{
+    font-size: 40px;
+    font-family: 'Audiowide', Arial, Helvetica, sans-serif;
+}
+
+.contenido h5{
+    font-size: 28px;
+    font-family: sans-serif, 'Trebuchet MS';
+    font-weight: bold;
+    margin-top: 1%;
+}
+
+.contenido p{
+    font-size: 20px;
+    font-family: sans-serif, arial;
+    padding-top: 1%;
+    text-align: justify;
+    margin-bottom: 3%;
+    line-height: 1.5;
+}
+
+.contenido li{
+    font-size: 20px;
+    font-family: sans-serif, arial;
+    padding-top: 1%;
+    text-align: justify;
+    margin-left: 3%;    
+    width: 45%;
+
+}
+
+.definicion p{
+    display: flex;
+    justify-content: space-around;
+    width: 45%;
+
+}
+
+.definicion img{
+    position: absolute;
+    width: 36%;
+    margin-left: 35%;
+    margin-top: -28%;
+}
+
+.definicion li{
+    margin-left: 1%;
+}
+
+
+footer{
+    border-top: 6px #C0393B solid;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 1%;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 0;
+    
+}
+
+.logo img{
+    height: 64px;
+    border-radius: 50%;
+    margin: 0;
+
+}
+
+.logo h3{
+    font-family: 'Prompt';
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+    width: auto;
+}
+
+.contacto{
+    width: 282px;
+    height: 60px;
+    padding-top: 11.5px;
+}
+
+.info a, h6, p{
+    font-family: 'Open Sans Hebrew Condensed', sans-serif;
+    font-size: small;
+    font-weight: 400;
+}
+
+.menuf {
+    margin-top: 31.5px;    
+    width: 359px;
+}
+
+.menuf a{
+    margin: 0px 12px;
+}
+
+.enlaces {
+    width: 199px;
+    height: 69px;
+    margin-top: 1%;
+}

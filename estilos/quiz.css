@@ -1,0 +1,169 @@
+  *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+  }
+
+  body{
+  background-color: black;
+  padding: 2% 2% 0 2%; 
+  }
+
+  .menu{
+  list-style-type: none;
+  padding-left: 11%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 6px #C0393B solid;
+  height: 91px;
+  font-family: 'Exo', arial;
+
+  }
+
+  .menu li {
+  margin: 0px 12px;
+  font-family: 'Exo';
+
+  }
+
+  .menu a{
+  text-decoration: none;
+  font-size: 31px;
+  padding: 2%;
+  border-radius: 10%;
+
+  }
+
+  .menu img{
+  height: 85px;
+  border-radius: 50%;
+  margin-top: -13%;
+
+  }
+
+  .contenido{
+  margin: 5%;
+  text-align: justify;
+  }
+
+  .contenido {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  margin: 2%;
+  gap: 20px; /* para separar los lados */
+  }
+
+  .columna {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+
+  /* Establece los anchos correctos */
+  .columna.imagen1 {
+  flex: 1;
+  max-width: 18%;
+  }
+
+  .columna.iframe-cont {
+  flex: 2;
+  max-width: 60%;
+  }
+
+  .columna.imagen2 {
+  flex: 1;
+  max-width: 14%;
+  margin-top: 57%;
+  margin-left: 3%;
+  }
+
+  .imagen1 img, .imagen2 img {
+  width: 100%;
+  height: auto;
+  display: block;
+  }
+
+  .imagen2 p {
+  color: #e4d0bd;
+  font-family: 'Poppins';
+  font-weight: bold;
+  text-align: center;
+  padding: 6px;
+  margin-top: 12px;
+  width: 128%;
+  }
+
+  .iframe-cont iframe {
+  width: 100%;
+  height: 1000px; /* o el tamaño que necesites */
+  border: none;
+  border-radius: 12px;
+  }
+
+
+  footer{
+  border-top: 6px #C0393B solid;
+  }
+
+  .info{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding: 1%;
+  }
+
+  .logo{
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 0;
+
+  }
+
+  .logo img{
+  height: 64px;
+  border-radius: 50%;
+  margin: 0;
+
+  }
+
+  .logo h3{
+  font-family: 'Prompt';
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+  width: auto;
+  }
+
+  .contacto{
+  width: 282px;
+  height: 60px;
+  padding-top: 11.5px;
+  }
+
+  .info a, h6, p{
+  font-family: 'Open Sans Hebrew Condensed', sans-serif;
+  font-size: small;
+  font-weight: 400;
+  }
+
+  .menuf {
+  margin-top: 31.5px;    
+  width: 359px;
+  }
+
+  .menuf a{
+  margin: 0px 12px;
+  }
+
+  .enlaces {
+  width: 199px;
+  height: 69px;
+  margin-top: 1%;
+  }
