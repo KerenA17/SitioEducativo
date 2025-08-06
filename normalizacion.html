@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Normalización</title>
+    <link href="https://fonts.googleapis.com/earlyaccess/opensanshebrewcondensed.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Exo:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/estilos/style2.css">
+    <link rel="stylesheet" href="/estilos/responsive.css">
+</head>
+<body>
+    <div class="header">
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li> <a href="conceptos.html">Conceptos</a> </li>
+                <li><a href="normalizacion.html">Normalización</a></li>
+                <li><a href="quiz.html">Quiz</a></li>
+                <li><img src="imagenes/ChatGPT Image 21 jul 2025, 16_15_44.png" alt=""></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="contenido">
+        <div class="definicion"> 
+            <h4>Explicación básica sobre la Normalización</h4><br>
+            <h5>¿Qué es la normalización de tablas?</h5>
+            <p>La normalización consiste en estructurar adecuadamente los datos dentro de una base de datos. Este proceso implica definir tablas 
+                y establecer relaciones entre ellas siguiendo ciertos principios, con el objetivo de proteger la integridad de los datos y aumentar
+                la eficiencia del sistema al reducir la redundancia y las dependencias inconsistentes.
+            </p>
+            <ul>
+                <li>Eliminar la redundancia de datos: Evita la repetición innecesaria de información.</li>
+                <li>Prevenir anomalías: Se busca evitar errores durante la inserción, actualización o eliminación de datos.</li>
+            </ul>
+                <img src="imagenes/ejemplo de normas.png" alt="">
+                <br>
+        </div>
+
+        <div class="reglas">
+            <h6>Formas normales</h6>
+            <div class="regla1">
+                <h5>Primera Forma Normal(1FN)</h5>
+                <p>La primera forma normal se enfoca en eliminar los grupos repetitivos dentro de una tabla. Para cumplir con esta forma, es necesario 
+                    que cada celda de la tabla contenga un solo valor (es decir, que sea atómica) y que cada registro sea único. Esto implica que no deben 
+                    existir columnas con múltiples valores o listas dentro de una misma celda. Con esta estructura básica, se establece un formato uniforme que 
+                    facilita el procesamiento y análisis de los datos.
+                </p>
+
+            </div>
+
+            <div class="regla2">
+                <h5>Segunda Forma Normal(2FN)</h5>
+                <p>Una vez que una tabla cumple con la primera forma normal, se puede avanzar hacia la segunda forma normal. Esta etapa tiene como objetivo eliminar 
+                    las dependencias parciales, lo que significa que todos los atributos no clave deben depender de la totalidad de la clave primaria, y no solo de una 
+                    parte de ella. Esto es especialmente relevante en tablas que tienen claves primarias compuestas (formadas por más de un campo). La 2FN busca garantizar 
+                    que cada dato esté vinculado exclusivamente con la clave completa que lo identifica.
+                </p>
+            </div>
+
+            <div class="regla3">
+                <h5>Tercera Forma Normal(3FN)</h5>
+                <p>La tercera forma normal se alcanza después de cumplir con la segunda. En esta etapa, se eliminan las dependencias transitivas, es decir, aquellas en las 
+                    que un atributo no clave depende de otro atributo no clave en lugar de depender directamente de la clave primaria. Esto se hace para evitar redundancias
+                    innecesarias y mantener una estructura lógica más clara. Al aplicar la 3FN, se logra una base de datos más eficiente, coherente y fácil de mantener, ya que
+                    cada elemento de información se encuentra exactamente en el lugar donde debe estar.
+                </p>
+            </div>
+            <div class="video">
+                <iframe width="850" height="398" style="display: block; margin: 0 auto;"
+                src="https://www.youtube.com/embed/QUWrKd9vK28?si=wtHbt1xdtJvfQeqf" 
+                title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>     
+            <br>   
+        </div>
+    </div>
+
+
+
+    <footer>
+        <div class="info">
+            <div class="logo">
+                <li style="list-style: none;"><a href="logo.html"><img src="imagenes/ChatGPT Image 21 jul 2025, 16_15_44.png" alt=""></a></li>
+                <h3>keAprende</h3>
+            </div>
+
+            <div class="contacto">
+                <h6>Contacto</h6>
+                <p>Correo electronico: aguillonkeren9@gmail.com</p>
+                <p>num. 834 218 3606</p>
+            </div>
+
+            <div class="menuf">
+                <a href="index.html">Inicio</a>
+                <a href="conceptos.html">Conceptos Básicos</a>
+                <a href="normalizacion.html">Normalización</a>
+                <a href="quiz.html">Quiz</a>
+            </div>
+
+            <div class="enlaces">
+                <h6>Redes Sociales</h6>
+                <a href="https://github.com/KerenA17" target="_blank">Github: KerenA17</a> <br>
+                <a href="https://x.com/Deniss7701" target="_blank">Twitter(X): @Deniss7101</a>
+            </div>
+
+        </div>
+    </footer>
+    
+</body>
+</html>
